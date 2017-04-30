@@ -1,0 +1,83 @@
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body{
+background:#666666;
+}
+.wrapper{
+width:1000px;margin:auto;
+ }
+ .header {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #FFCC33;
+	background-image: url(bg-header1.png);
+	height: 120px;
+	width: 1000px;
+	border-bottom-width: 5px;
+	border-bottom-style: groove;
+	border-bottom-color: #FF9933;
+
+}
+.left {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: #0066FF;
+	text-align: right;
+	display: block;
+	float: left;
+	height: 800px;
+	width: 200px;
+	border-right-width: 5px;
+	border-right-style: groove;
+	border-right-color: #FF9933;
+}
+.left a{
+	text-decoration:none;
+	color:#FFFFFF;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size:18px;
+	text-align:right;
+	padding:8px;
+	margin-bottom:8px;
+	display:block;
+}
+.left a:hover{color:#FFFF00; text-decoration:underline;}
+.left a:visited{color:#FFFFFF; font-family:Geneva, Arial, Helvetica, sans-serif;}
+.right {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	background:#CCCCCC;
+	color: #000000;
+	float: right;
+	height: 800px;
+	width: 795px;
+}
